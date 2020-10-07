@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+body{
+  background-image: url("../img/bg.jpg");
+}
+
+.contenitore{
+  width: 1200px;
+  margin: auto;
+  color: white;
+  margin-top: 20px;
+}
+
+header, nav, main{
+  border-bottom: 4px solid white;
+  padding-bottom: 20px;
+}
+
+form{
+  padding-bottom: 25px;
+}
+
+header img{
+  width: 300px;
+  height: 200px;
+}
+
+header h1, footer h2{
+  display: inline-block;
+}
+
+nav, main, footer{
+  margin-top: 20px;
+  width: 100%;
+}
+
+h1 > span{
+  background-color: yellow;
+  border-radius: 50px;
+  color: black;
+  padding: 10px;
+}
+
+main{
+  color: black;
+}
+
+ /* tolgo il margine a p */
+.right p{
+  margin: 0;
+}
+
+.email.read{
+  background-color: lightblue;
+}
+
+.email.unread{
+  background-color: white;
+}
+
+.email.read , .email.unread{
+  border: 1px solid black
+}
+
+.email .left, .email .right{
+  display: inline-block;
+}
+
+.email .left{
+  width: 30%;
+  padding-left: 5px;
+}
+
+/* non potendo, al momento, usare i float, la lunghezza
+   di una riga va ancora calcolata a tentativi */
+.email .right{
+  width: 69%;
+}
+
+footer{
+  text-align: center;
+}
