@@ -29,7 +29,7 @@ header img{
   height: 200px;
 }
 
-header h1, footer h2{
+header h1, footer h2, .email .left, .email .right{
   display: inline-block;
 }
 
@@ -64,10 +64,6 @@ main{
 
 .email.read , .email.unread{
   border: 1px solid black
-}
-
-.email .left, .email .right{
-  display: inline-block;
 }
 
 .email .left{
