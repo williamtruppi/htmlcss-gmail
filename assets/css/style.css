@@ -29,7 +29,7 @@ header img{
   height: 200px;
 }
 
-header h1, footer h2, .email .left, .email .right{
+header h1, .email .left, .email .right{
   display: inline-block;
 }
 
@@ -79,4 +79,8 @@ main{
 
 footer{
   text-align: center;
+}
+
+footer > strong {
+  font-size: 25px;
 }
